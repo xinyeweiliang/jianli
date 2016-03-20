@@ -1,0 +1,38 @@
+*{ margin:0; padding: 0; }
+html,body{ width: 100%; height: 100%; overflow: hidden; background-color: #f1f1f1; }
+ul,li{ list-style: none; }
+img{ border:0; display: block; }
+#main{ width: 640px; height: 960px; position: absolute; top: 0; left: 50%; margin-left: -320px; transform-origin:top; }
+#list{ width: 100%; height: 100%; }
+#list li{ width: 100%; height: 100%; position: absolute; top: 0; left: 0; background-color: #021416; }
+#list li{ background-color: #021416; }
+#list li.zIndex{ z-index: 5; }
+#list li div{ width: 100%; height: 100%; }
+.page01 img:nth-child(1){ width: 40%; margin: 20% auto 30%;}
+.page01 img:nth-child(2){ width: 70%;margin: 0 auto;}
+.page02{opacity: 0; }
+.page02 img{ width: 70%; margin: 25% auto 0; }
+.page03 img{ width: 70%; margin:15% auto; opacity: 0; }
+.page03 img:nth-child(1){ margin-bottom:20%}
+.page04{ opacity: 0; }
+.page04 img{ width: 50%; margin: 55% auto 0; }
+.bounceIn,.fadeInUp,.fadeIn{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.page03 img:nth-child(1).fadeInLeft{
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.page03 img:nth-child(2).fadeInLeft{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.page03 img:nth-child(3).fadeInLeft{
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.page03 img:nth-child(4).fadeInLeft{
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
